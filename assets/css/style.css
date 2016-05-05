@@ -575,7 +575,7 @@
 		}
 
 			#header h1 a {
-				font-size: 2.5em;
+				font-size: 1.5em;
 				letter-spacing: -0.025em;
 				border: 0;
 			}
@@ -838,6 +838,7 @@
 			margin-top: 1.5em;
 			text-align: center;
 			font-size: 0.9em;
+<<<<<<< HEAD
 		}
 
 		.fixed {
@@ -845,3 +846,6 @@
 		    top:0; left:0;
 		    width: 100%;
 		}
+=======
+		}
+>>>>>>> parent of aa85c69... change to 2.5em
