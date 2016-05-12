@@ -1,4 +1,10 @@
 name: Washington Wellness
-description: Arcana template for Jekyll
-paginate: 10
+description: Personal Trainer
+paginate: 5
 baseurl: ''
+
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jekyll-sitemap
+ - jemoji

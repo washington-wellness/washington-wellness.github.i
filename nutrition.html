@@ -7,7 +7,7 @@ layout: default
 	<section class="wrapper style1">
 		<div class="container">
 			<div class="row double">
-				<div class="8u">
+				<div class="9u">
 					<div id="content">
 
 						<!-- Content -->
@@ -27,8 +27,13 @@ layout: default
 
 					</div>
 				</div>
-				<div class="4u">
+				<div class="3u">
 					<h3>Nutrtion Posts</h3>
+					<ul>
+					{% for post in site.categories['nutrition'] %}{% if post.title != null %}
+					<li><span>{{ post.date | date: "%b %d" }}</span> » <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+					{% endif %}{% endfor %}
+					</ul>
 				</div>
 			</div>
 		</div>
