@@ -703,7 +703,7 @@
 
 	#banner {
 		/*background-image: url("../images/banner.jpg"); */
-		background-image: url("../images/IMG_0269.JPG");
+		background-image: url("../images/IMG_0285.JPG");
 		background-position: center 23%;
 		background-size: cover;
 		height: 28em;
@@ -804,7 +804,7 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0 8em 0;
+		padding: 1em 0 1em 0;
 	}
 
 		#footer a {
@@ -824,6 +824,7 @@
 		#footer .icons {
 			text-align: center;
 			margin: 0;
+			font-size: 1.5em;
 		}
 
 			#footer .icons a {
@@ -836,17 +837,12 @@
 
 		#footer .copyright {
 			color: #999999;
-			margin-top: 1.5em;
+			margin-top: .7em;
 			text-align: center;
 			font-size: 0.9em;
-<<<<<<< HEAD
 		}
 
-		.fixed {
-		    position: fixed;
-		    top:0; left:0;
-		    width: 100%;
-		}
-=======
-		}
->>>>>>> parent of aa85c69... change to 2.5em
+			#footer .contact {
+				text-align: center;
+				margin-bottom: 1.7em;
+			}
