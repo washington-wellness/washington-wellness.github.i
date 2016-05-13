@@ -842,6 +842,10 @@
 			font-size: 0.9em;
 		}
 
+		#footer .copyright p {
+			margin-bottom: 0;
+		}
+
 			#footer .contact {
 				text-align: center;
 				margin-bottom: 1.7em;
