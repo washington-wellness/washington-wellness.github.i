@@ -11,6 +11,9 @@ instagram: kmwashington1
 youtube: UCi8YPAciDHRKuDD982ObCVA
 disqus_shortname: washingtonwellness
 
+sass:
+  style: compressed
+
 gems:
  - jekyll-paginate
  - jekyll-gist

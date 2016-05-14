@@ -14,7 +14,7 @@
 			li {
 				display: block;
 				padding: 1.5em 0 0 0;
-		
+
 				&:first-child {
 					padding: 0;
 				}
@@ -30,7 +30,7 @@
 			height: 4em;
 			line-height: 4em;
 			box-shadow: 0 0 0 7px white, 0 0 0 8px $color-border;
-			
+
 			&:before {
 				font-size: 24px;
 			}
@@ -46,7 +46,7 @@
 		width: 100%;
 		display: block;
 	}
-	
+
 /* Box */
 
 	.box {
@@ -64,12 +64,12 @@
 			}
 		}
 	}
-	
+
 /* Banner */
 
 	#banner {
 		height: 20em;
-		
+
 		header {
 			padding: 20px;
 		}
@@ -86,7 +86,7 @@
 	#cta {
 		padding: 20px;
 	}
-	
+
 /* Footer */
 
 	#footer {
