@@ -1,6 +1,6 @@
 name: Washington Wellness
 title: Washing Wellness
-description: Personal Trainer
+description: Personal Trainer Marcus Washington
 paginate: 5
 paginate_path: "page:num"
 baseurl: ''
